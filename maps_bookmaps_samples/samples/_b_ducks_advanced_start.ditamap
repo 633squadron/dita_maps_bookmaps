@@ -18,6 +18,11 @@
             </bookowner>
         </bookrights>
     </bookmeta>
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
     <chapter href="c_wild_ducks.dita">
         <topicmeta>
             <category>Wild ducks</category>
@@ -39,11 +44,23 @@
         <topicref href="t_deleting_entry.dita"/>
         <topicref href="t_queries.dita"/>
         <topicref href="t_modify_table.dita"/>
-        <topicref href="r_tnav.dita"/>
+        <topicref href="r_tnav.dita" locktitle="yes">
+            <topicmeta>
+                <navtitle>The tNav command</navtitle>
+            </topicmeta>
+        </topicref>
         <topicref href="r_add.dita"/>
         <topicref href="r_delete.dita"/>
         <topicref href="r_edit.dita"/>
         <topicref href="r_newtable.dita"/>
         <topicref href="r_modify_table.dita"/>
     </chapter>
+    <backmatter>
+        <booklists>
+            <glossarylist>
+                <mapref href="g_duck_glossgroup.dita"></mapref>
+            </glossarylist>
+            <indexlist/>
+        </booklists>
+    </backmatter>
 </bookmap>
